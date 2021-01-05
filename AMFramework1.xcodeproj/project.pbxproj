@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DCDEAE43859F25E48FEF35BE /* Pods_AMFramework1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBE64DF1DD33DD411CA61B6 /* Pods_AMFramework1.framework */; };
 		E5A9167625A476C40009D7B3 /* AMFramework1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A9166C25A476C40009D7B3 /* AMFramework1.framework */; };
 		E5A9167B25A476C40009D7B3 /* AMFramework1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A9167A25A476C40009D7B3 /* AMFramework1Tests.swift */; };
 		E5A9167D25A476C40009D7B3 /* AMFramework1.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A9166F25A476C40009D7B3 /* AMFramework1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5A916C525A477340009D7B3 /* FrameOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A916C425A477340009D7B3 /* FrameOne.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +25,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27D1C19A4C26D4758FEFDA89 /* Pods-AMFramework1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMFramework1.release.xcconfig"; path = "Target Support Files/Pods-AMFramework1/Pods-AMFramework1.release.xcconfig"; sourceTree = "<group>"; };
+		68E92257712DDAD38A8EC488 /* Pods-AMFramework1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMFramework1.debug.xcconfig"; path = "Target Support Files/Pods-AMFramework1/Pods-AMFramework1.debug.xcconfig"; sourceTree = "<group>"; };
+		DCBE64DF1DD33DD411CA61B6 /* Pods_AMFramework1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMFramework1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A9166C25A476C40009D7B3 /* AMFramework1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AMFramework1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A9166F25A476C40009D7B3 /* AMFramework1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMFramework1.h; sourceTree = "<group>"; };
 		E5A9167025A476C40009D7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5A9167525A476C40009D7B3 /* AMFramework1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMFramework1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A9167A25A476C40009D7B3 /* AMFramework1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMFramework1Tests.swift; sourceTree = "<group>"; };
 		E5A9167C25A476C40009D7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5A916C425A477340009D7B3 /* FrameOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameOne.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCDEAE43859F25E48FEF35BE /* Pods_AMFramework1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +57,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55FDDDEBC021DC2EF24201B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68E92257712DDAD38A8EC488 /* Pods-AMFramework1.debug.xcconfig */,
+				27D1C19A4C26D4758FEFDA89 /* Pods-AMFramework1.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../SampleApp/Pods;
+			sourceTree = "<group>";
+		};
+		74EC23CD8D4EB1C85060D04D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCBE64DF1DD33DD411CA61B6 /* Pods_AMFramework1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E5A9166225A476C40009D7B3 = {
 			isa = PBXGroup;
 			children = (
 				E5A9166E25A476C40009D7B3 /* AMFramework1 */,
 				E5A9167925A476C40009D7B3 /* AMFramework1Tests */,
 				E5A9166D25A476C40009D7B3 /* Products */,
+				55FDDDEBC021DC2EF24201B4 /* Pods */,
+				74EC23CD8D4EB1C85060D04D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +100,7 @@
 			children = (
 				E5A9166F25A476C40009D7B3 /* AMFramework1.h */,
 				E5A9167025A476C40009D7B3 /* Info.plist */,
+				E5A916C425A477340009D7B3 /* FrameOne.swift */,
 			);
 			path = AMFramework1;
 			sourceTree = "<group>";
@@ -104,6 +132,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5A9168025A476C40009D7B3 /* Build configuration list for PBXNativeTarget "AMFramework1" */;
 			buildPhases = (
+				FED88F2CF1B0B0A3237AF3C6 /* [CP] Check Pods Manifest.lock */,
 				E5A9166725A476C40009D7B3 /* Headers */,
 				E5A9166825A476C40009D7B3 /* Sources */,
 				E5A9166925A476C40009D7B3 /* Frameworks */,
@@ -147,6 +176,7 @@
 				TargetAttributes = {
 					E5A9166B25A476C40009D7B3 = {
 						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1210;
 					};
 					E5A9167425A476C40009D7B3 = {
 						CreatedOnToolsVersion = 12.1;
@@ -189,11 +219,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FED88F2CF1B0B0A3237AF3C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AMFramework1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E5A9166825A476C40009D7B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5A916C525A477340009D7B3 /* FrameOne.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +396,9 @@
 		};
 		E5A9168125A476C40009D7B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E92257712DDAD38A8EC488 /* Pods-AMFramework1.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -353,9 +411,11 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = amar.reading.practice.AMFramework1;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,7 +423,9 @@
 		};
 		E5A9168225A476C40009D7B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D1C19A4C26D4758FEFDA89 /* Pods-AMFramework1.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -376,6 +438,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = amar.reading.practice.AMFramework1;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -387,6 +450,7 @@
 		E5A9168425A476C40009D7B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AMFramework1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -404,6 +468,7 @@
 		E5A9168525A476C40009D7B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AMFramework1Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
