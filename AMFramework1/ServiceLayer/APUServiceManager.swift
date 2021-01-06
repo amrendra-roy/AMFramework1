@@ -7,6 +7,8 @@
 
 import Foundation
 
+//https://api.androidhive.info/json/movies.json
+//https://jsonplaceholder.typicode.com/posts
 class APUServiceManager: APIClientManager {
     
     var session: URLSession = {
