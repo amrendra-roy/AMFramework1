@@ -16,6 +16,8 @@
 		E5AEA83725A5C9C400A18FB4 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEA83625A5C9C400A18FB4 /* Endpoint.swift */; };
 		E5AEA83B25A5C9CF00A18FB4 /* APIClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEA83A25A5C9CF00A18FB4 /* APIClientManager.swift */; };
 		E5AEA83F25A5C9DE00A18FB4 /* APUServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEA83E25A5C9DE00A18FB4 /* APUServiceManager.swift */; };
+		E5AEA84825A5CC0900A18FB4 /* MovieRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEA84725A5CC0900A18FB4 /* MovieRequest.swift */; };
+		E5AEA84D25A5D28D00A18FB4 /* MovieResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEA84C25A5D28D00A18FB4 /* MovieResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +45,8 @@
 		E5AEA83625A5C9C400A18FB4 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		E5AEA83A25A5C9CF00A18FB4 /* APIClientManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientManager.swift; sourceTree = "<group>"; };
 		E5AEA83E25A5C9DE00A18FB4 /* APUServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APUServiceManager.swift; sourceTree = "<group>"; };
+		E5AEA84725A5CC0900A18FB4 /* MovieRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRequest.swift; sourceTree = "<group>"; };
+		E5AEA84C25A5D28D00A18FB4 /* MovieResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,7 @@
 		E5AEA84225A5C9F700A18FB4 /* ResponseModel */ = {
 			isa = PBXGroup;
 			children = (
+				E5AEA84C25A5D28D00A18FB4 /* MovieResponse.swift */,
 			);
 			path = ResponseModel;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 		E5AEA84325A5C9F700A18FB4 /* RequestModel */ = {
 			isa = PBXGroup;
 			children = (
+				E5AEA84725A5CC0900A18FB4 /* MovieRequest.swift */,
 			);
 			path = RequestModel;
 			sourceTree = "<group>";
@@ -285,8 +291,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5AEA84D25A5D28D00A18FB4 /* MovieResponse.swift in Sources */,
 				E5A916F425A494B80009D7B3 /* FrameOneFile1.swift in Sources */,
 				E5AEA83F25A5C9DE00A18FB4 /* APUServiceManager.swift in Sources */,
+				E5AEA84825A5CC0900A18FB4 /* MovieRequest.swift in Sources */,
 				E5AEA83B25A5C9CF00A18FB4 /* APIClientManager.swift in Sources */,
 				E5AEA83725A5C9C400A18FB4 /* Endpoint.swift in Sources */,
 				E5A916C525A477340009D7B3 /* FrameOne.swift in Sources */,
