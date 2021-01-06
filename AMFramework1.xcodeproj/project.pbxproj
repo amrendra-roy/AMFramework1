@@ -13,6 +13,9 @@
 		E5A9167D25A476C40009D7B3 /* AMFramework1.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A9166F25A476C40009D7B3 /* AMFramework1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5A916C525A477340009D7B3 /* FrameOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A916C425A477340009D7B3 /* FrameOne.swift */; };
 		E5A916F425A494B80009D7B3 /* FrameOneFile1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A916F325A494B80009D7B3 /* FrameOneFile1.swift */; };
+		E5AEA83725A5C9C400A18FB4 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEA83625A5C9C400A18FB4 /* Endpoint.swift */; };
+		E5AEA83B25A5C9CF00A18FB4 /* APIClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEA83A25A5C9CF00A18FB4 /* APIClientManager.swift */; };
+		E5AEA83F25A5C9DE00A18FB4 /* APUServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AEA83E25A5C9DE00A18FB4 /* APUServiceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,9 @@
 		E5A9167C25A476C40009D7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5A916C425A477340009D7B3 /* FrameOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameOne.swift; sourceTree = "<group>"; };
 		E5A916F325A494B80009D7B3 /* FrameOneFile1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameOneFile1.swift; sourceTree = "<group>"; };
+		E5AEA83625A5C9C400A18FB4 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		E5AEA83A25A5C9CF00A18FB4 /* APIClientManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientManager.swift; sourceTree = "<group>"; };
+		E5AEA83E25A5C9DE00A18FB4 /* APUServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APUServiceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,7 @@
 				E5A9167025A476C40009D7B3 /* Info.plist */,
 				E5A916C425A477340009D7B3 /* FrameOne.swift */,
 				E5A916F325A494B80009D7B3 /* FrameOneFile1.swift */,
+				E5AEA83525A5C95200A18FB4 /* ServiceLayer */,
 			);
 			path = AMFramework1;
 			sourceTree = "<group>";
@@ -115,6 +122,32 @@
 				E5A9167C25A476C40009D7B3 /* Info.plist */,
 			);
 			path = AMFramework1Tests;
+			sourceTree = "<group>";
+		};
+		E5AEA83525A5C95200A18FB4 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				E5AEA83625A5C9C400A18FB4 /* Endpoint.swift */,
+				E5AEA83A25A5C9CF00A18FB4 /* APIClientManager.swift */,
+				E5AEA83E25A5C9DE00A18FB4 /* APUServiceManager.swift */,
+				E5AEA84325A5C9F700A18FB4 /* RequestModel */,
+				E5AEA84225A5C9F700A18FB4 /* ResponseModel */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		E5AEA84225A5C9F700A18FB4 /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		E5AEA84325A5C9F700A18FB4 /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5A916F425A494B80009D7B3 /* FrameOneFile1.swift in Sources */,
+				E5AEA83F25A5C9DE00A18FB4 /* APUServiceManager.swift in Sources */,
+				E5AEA83B25A5C9CF00A18FB4 /* APIClientManager.swift in Sources */,
+				E5AEA83725A5C9C400A18FB4 /* Endpoint.swift in Sources */,
 				E5A916C525A477340009D7B3 /* FrameOne.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
