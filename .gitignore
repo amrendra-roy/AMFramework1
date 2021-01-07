@@ -104,3 +104,6 @@ Temporary Items
 .apdisk
 
 *.orig
+
+AMFramework1.xcodeproj/xcshareddata
+AMFramework1.xcodeproj/xcuserdata
