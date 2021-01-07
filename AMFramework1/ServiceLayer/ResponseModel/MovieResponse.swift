@@ -7,7 +7,7 @@
 
 import Foundation
 
-class MovieResponse: Decodable {
+public struct MovieResponse: Decodable {
     let title: String?
     let image: String? //imageURL do as coding-key value
     let rating: Float?
