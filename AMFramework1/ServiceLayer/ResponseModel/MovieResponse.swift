@@ -7,11 +7,11 @@
 
 import Foundation
 
-public struct MovieResponse: Decodable {
-    let title: String?
+public struct MovieResponse: Decodable { //Decodable protocol can be converted from JSON to object.
+    public let title: String?
     let image: String? //imageURL do as coding-key value
-    let rating: Float?
-    let releaseYear: Int?
+    public let rating: Float?
+    public let releaseYear: Int?
     let genre: [String]
     
     init(movieTitle: String, imageURL: String, rating: Float, releaseYear: Int, genreList: [String] ) {

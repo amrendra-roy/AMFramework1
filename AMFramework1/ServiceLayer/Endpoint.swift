@@ -8,7 +8,7 @@
 import Foundation
 
 public enum Result<Template, U> where U: Error {
-    case success([Template])
+    case success(Template)
     case failure(U)
 }
 

@@ -24,8 +24,7 @@ public class APIServiceManager: APIClientManager {
     var session: URLSession = {
             let configuration = URLSessionConfiguration.default
             configuration.timeoutIntervalForRequest = 30 // seconds
-            //configuration.timeoutIntervalForResource = 30 // seconds
-            configuration.httpAdditionalHeaders = ["Content-Type":"text/html"] //text/html //application/json
+            configuration.httpAdditionalHeaders = ["Content-Type":"application/json"] //text/html //application/json
             return URLSession(configuration: configuration)
         }()
     
@@ -36,13 +35,12 @@ public class APIServiceManager: APIClientManager {
 }
 
 extension APIServiceManager {
-    public func getMovieList(handler: @escaping(Result<MovieResponse?, Framwork1Error>) -> Void) {
-        let movieReqeust = MovieRequest()
-        let request = movieReqeust.request
-        fetch(wtih: request, handler: handler)
-    }
     
     public func getMovieList(by url: URL?,handler: @escaping(Result<[MovieResponse]?, Framwork1Error>) -> Void) {
+        fetch(with: URL(string: baseURLFramework1), handler: handler)
+    }
+    
+    public func getPhotosList(by url: URL?, handler: @escaping(Result<[PhotoResponse]?, Framwork1Error>) -> Void) {
         fetch(with: URL(string: baseURLFramework1), handler: handler)
     }
     
