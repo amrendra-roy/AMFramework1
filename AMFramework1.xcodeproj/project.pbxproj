@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DCDEAE43859F25E48FEF35BE /* Pods_AMFramework1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBE64DF1DD33DD411CA61B6 /* Pods_AMFramework1.framework */; };
 		E56BB05925A835B10076DEC3 /* PhotoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56BB05825A835B10076DEC3 /* PhotoResponse.swift */; };
+		E56BB05D25A854C20076DEC3 /* Framework1OpenAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56BB05C25A854C20076DEC3 /* Framework1OpenAPI.swift */; };
 		E5A9167625A476C40009D7B3 /* AMFramework1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A9166C25A476C40009D7B3 /* AMFramework1.framework */; };
 		E5A9167B25A476C40009D7B3 /* AMFramework1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A9167A25A476C40009D7B3 /* AMFramework1Tests.swift */; };
 		E5A9167D25A476C40009D7B3 /* AMFramework1.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A9166F25A476C40009D7B3 /* AMFramework1.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,6 +37,7 @@
 		68E92257712DDAD38A8EC488 /* Pods-AMFramework1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMFramework1.debug.xcconfig"; path = "Target Support Files/Pods-AMFramework1/Pods-AMFramework1.debug.xcconfig"; sourceTree = "<group>"; };
 		DCBE64DF1DD33DD411CA61B6 /* Pods_AMFramework1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMFramework1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E56BB05825A835B10076DEC3 /* PhotoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoResponse.swift; sourceTree = "<group>"; };
+		E56BB05C25A854C20076DEC3 /* Framework1OpenAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework1OpenAPI.swift; sourceTree = "<group>"; };
 		E5A9166C25A476C40009D7B3 /* AMFramework1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AMFramework1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A9166F25A476C40009D7B3 /* AMFramework1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMFramework1.h; sourceTree = "<group>"; };
 		E5A9167025A476C40009D7B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				E5AEA83625A5C9C400A18FB4 /* Endpoint.swift */,
 				E5AEA83A25A5C9CF00A18FB4 /* APIClientManager.swift */,
 				E5AEA83E25A5C9DE00A18FB4 /* APUServiceManager.swift */,
+				E56BB05C25A854C20076DEC3 /* Framework1OpenAPI.swift */,
 				E5AEA84325A5C9F700A18FB4 /* RequestModel */,
 				E5AEA84225A5C9F700A18FB4 /* ResponseModel */,
 			);
@@ -301,6 +304,7 @@
 				E5AEA83B25A5C9CF00A18FB4 /* APIClientManager.swift in Sources */,
 				E5AEA83725A5C9C400A18FB4 /* Endpoint.swift in Sources */,
 				E5A916C525A477340009D7B3 /* FrameOne.swift in Sources */,
+				E56BB05D25A854C20076DEC3 /* Framework1OpenAPI.swift in Sources */,
 				E56BB05925A835B10076DEC3 /* PhotoResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

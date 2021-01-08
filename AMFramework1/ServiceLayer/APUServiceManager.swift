@@ -7,9 +7,6 @@
 
 import Foundation
 
-//https://api.androidhive.info/json/movies.json
-//https://jsonplaceholder.typicode.com/photos
-//https://jsonplaceholder.typicode.com/posts
 
 public var baseURLFramework1 = "https://no/url/" //set it from out side while initialising framework, only once
 
@@ -34,7 +31,7 @@ public class APIServiceManager: APIClientManager {
     }
 }
 
-extension APIServiceManager {
+extension APIServiceManager: Framework1OpenAPI {
     
     public func getMovieList(by url: URL?,handler: @escaping(Result<[MovieResponse]?, Framwork1Error>) -> Void) {
         fetch(with: URL(string: baseURLFramework1), handler: handler)
@@ -43,12 +40,4 @@ extension APIServiceManager {
     public func getPhotosList(by url: URL?, handler: @escaping(Result<[PhotoResponse]?, Framwork1Error>) -> Void) {
         fetch(with: URL(string: baseURLFramework1), handler: handler)
     }
-    
-    /*public func getPhotosList(handler: @escaping(Result<MovieResponse?, Framwork1Error>) -> Void) {
-        
-    }
-    
-    public func getPostCommentsList(handler: @escaping(Result<MovieResponse?, Framwork1Error>) -> Void) {
-        
-    }*/
 }
