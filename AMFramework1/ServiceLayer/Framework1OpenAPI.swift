@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 //Provide this File to external parties to consume your APIs
 protocol Framework1OpenAPI {
@@ -34,6 +35,10 @@ protocol Framework1OpenAPI {
     //test url: https://jsonplaceholder.typicode.com/posts
     func getPostCommentsList(handler: @escaping(Result<MovieResponse?, Framwork1Error>) -> Void) //Optional method
  
+    /*
+     A view controller that will initiate payment controller if login success full
+     */
+    func instantiatePayment(with payeeName: String, completionHandler: @escaping(String, Framwork1Error?)-> Void) -> UIViewController?
 }
 
 extension Framework1OpenAPI {

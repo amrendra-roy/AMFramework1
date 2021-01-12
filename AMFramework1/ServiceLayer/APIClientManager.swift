@@ -12,6 +12,7 @@ public enum Framwork1Error: Error {
     case jsonConversionFailure(String?)
     case invalidResponse(statusDescCode:String?, message:String?)
     case invalidData
+    case cancel
 }
 
 protocol APIClientManager {

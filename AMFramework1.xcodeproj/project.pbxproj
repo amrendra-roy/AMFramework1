@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		DCDEAE43859F25E48FEF35BE /* Pods_AMFramework1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBE64DF1DD33DD411CA61B6 /* Pods_AMFramework1.framework */; };
+		E546517525AD931C00E1B8E4 /* AMFramework1Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E546517425AD931C00E1B8E4 /* AMFramework1Storyboard.storyboard */; };
+		E546518225AD93F400E1B8E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E546518125AD93F400E1B8E4 /* Assets.xcassets */; };
+		E54651C325AD94D600E1B8E4 /* EnterPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54651C225AD94D600E1B8E4 /* EnterPinViewController.swift */; };
+		E54651C725AD94E700E1B8E4 /* ConfirmPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54651C625AD94E700E1B8E4 /* ConfirmPinViewController.swift */; };
 		E56BB05925A835B10076DEC3 /* PhotoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56BB05825A835B10076DEC3 /* PhotoResponse.swift */; };
 		E56BB05D25A854C20076DEC3 /* Framework1OpenAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56BB05C25A854C20076DEC3 /* Framework1OpenAPI.swift */; };
 		E5A9167625A476C40009D7B3 /* AMFramework1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5A9166C25A476C40009D7B3 /* AMFramework1.framework */; };
@@ -36,6 +40,10 @@
 		27D1C19A4C26D4758FEFDA89 /* Pods-AMFramework1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMFramework1.release.xcconfig"; path = "Target Support Files/Pods-AMFramework1/Pods-AMFramework1.release.xcconfig"; sourceTree = "<group>"; };
 		68E92257712DDAD38A8EC488 /* Pods-AMFramework1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMFramework1.debug.xcconfig"; path = "Target Support Files/Pods-AMFramework1/Pods-AMFramework1.debug.xcconfig"; sourceTree = "<group>"; };
 		DCBE64DF1DD33DD411CA61B6 /* Pods_AMFramework1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMFramework1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E546517425AD931C00E1B8E4 /* AMFramework1Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AMFramework1Storyboard.storyboard; sourceTree = "<group>"; };
+		E546518125AD93F400E1B8E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E54651C225AD94D600E1B8E4 /* EnterPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPinViewController.swift; sourceTree = "<group>"; };
+		E54651C625AD94E700E1B8E4 /* ConfirmPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPinViewController.swift; sourceTree = "<group>"; };
 		E56BB05825A835B10076DEC3 /* PhotoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoResponse.swift; sourceTree = "<group>"; };
 		E56BB05C25A854C20076DEC3 /* Framework1OpenAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework1OpenAPI.swift; sourceTree = "<group>"; };
 		E5A9166C25A476C40009D7B3 /* AMFramework1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AMFramework1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +99,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E546517325AD930100E1B8E4 /* StoreyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				E546517425AD931C00E1B8E4 /* AMFramework1Storyboard.storyboard */,
+			);
+			path = StoreyBoard;
+			sourceTree = "<group>";
+		};
+		E546517825AD933400E1B8E4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E54651C225AD94D600E1B8E4 /* EnterPinViewController.swift */,
+				E54651C625AD94E700E1B8E4 /* ConfirmPinViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E546517925AD935600E1B8E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E546518025AD93D500E1B8E4 /* images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E546518025AD93D500E1B8E4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E546518125AD93F400E1B8E4 /* Assets.xcassets */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		E5A9166225A476C40009D7B3 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +159,9 @@
 				E5A9167025A476C40009D7B3 /* Info.plist */,
 				E5A916C425A477340009D7B3 /* FrameOne.swift */,
 				E5A916F325A494B80009D7B3 /* FrameOneFile1.swift */,
+				E546517925AD935600E1B8E4 /* Resources */,
+				E546517825AD933400E1B8E4 /* ViewControllers */,
+				E546517325AD930100E1B8E4 /* StoreyBoard */,
 				E5AEA83525A5C95200A18FB4 /* ServiceLayer */,
 			);
 			path = AMFramework1;
@@ -255,6 +299,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E546518225AD93F400E1B8E4 /* Assets.xcassets in Resources */,
+				E546517525AD931C00E1B8E4 /* AMFramework1Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +346,9 @@
 				E5AEA84D25A5D28D00A18FB4 /* MovieResponse.swift in Sources */,
 				E5A916F425A494B80009D7B3 /* FrameOneFile1.swift in Sources */,
 				E5AEA83F25A5C9DE00A18FB4 /* APUServiceManager.swift in Sources */,
+				E54651C325AD94D600E1B8E4 /* EnterPinViewController.swift in Sources */,
 				E5AEA84825A5CC0900A18FB4 /* MovieRequest.swift in Sources */,
+				E54651C725AD94E700E1B8E4 /* ConfirmPinViewController.swift in Sources */,
 				E5AEA83B25A5C9CF00A18FB4 /* APIClientManager.swift in Sources */,
 				E5AEA83725A5C9C400A18FB4 /* Endpoint.swift in Sources */,
 				E5A916C525A477340009D7B3 /* FrameOne.swift in Sources */,
