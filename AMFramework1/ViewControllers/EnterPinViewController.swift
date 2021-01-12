@@ -47,7 +47,6 @@ public class EnterPinViewController: UIViewController {
                 }
                 self.navigationController?.pushViewController(vc, animated: true)
             }
-            
         }else {
             let alert = UIAlertController(title: "Alert!", message: "Please select ticked button", preferredStyle: .alert)
             let ok = UIAlertAction(title: "OK", style: .cancel, handler: nil)

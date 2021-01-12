@@ -32,17 +32,15 @@ public class APIServiceManager: APIClientManager {
 }
 
 extension APIServiceManager: Framework1OpenAPI {
-    public func instantiatePayment(with payeeName: String, completionHandler: @escaping (String, Framwork1Error?) -> Void) -> UIViewController? {
+    public func instantiatePayment(with payeeName: String, onPresenter viewController: UIViewController, completionHandler: @escaping (String, Framwork1Error?) -> Void) {
         if let vc = EnterPinViewController.instantiateEnterPinViewController(with: payeeName) {
             vc.completionHandler = { (message, errorType) in
                 //call when Enter pin completion handler call back
-                //print("message = \(message)")
-                //print("Error type = \(errorType)")
                 completionHandler(message, errorType)
             }
-            return vc
+            let navigation = UINavigationController(rootViewController: vc)
+            viewController.present(navigation, animated: true)
         }
-        return nil
     }
     
     

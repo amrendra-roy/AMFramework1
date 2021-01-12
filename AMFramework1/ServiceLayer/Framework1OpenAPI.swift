@@ -38,7 +38,7 @@ protocol Framework1OpenAPI {
     /*
      A view controller that will initiate payment controller if login success full
      */
-    func instantiatePayment(with payeeName: String, completionHandler: @escaping(String, Framwork1Error?)-> Void) -> UIViewController?
+    func instantiatePayment(with payeeName: String, onPresenter viewController: UIViewController, completionHandler: @escaping (String, Framwork1Error?) -> Void)
 }
 
 extension Framework1OpenAPI {
