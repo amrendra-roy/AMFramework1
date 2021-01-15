@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AMFramework1"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "A pod spce to test with client app"
 
   # This description is used to generate tags and improve search results.
@@ -90,8 +90,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  =  'AMFramework1' #{}"Classes", "Classes/**/*.{h,m}"
-  #spec.exclude_files = "Classes/Exclude"
+  spec.source_files  =  'AMFramework1/**/*.{swift,h,m}' #{}"Classes", "Classes/**/*.{h,m}"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -106,6 +105,7 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
+  spec.resources = 'AMFramework1/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}'
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
