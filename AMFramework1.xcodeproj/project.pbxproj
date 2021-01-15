@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9564652A7A93E66719BA20B0 /* Pods_AMFramework1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C22773BAD6231C587B8ACB /* Pods_AMFramework1.framework */; };
 		E50D915125B1C2490016840E /* Framework1OpenAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50D915025B1C2490016840E /* Framework1OpenAPI.swift */; };
 		E50D915425B1C29C0016840E /* EnterPinViewController.swift in Headers */ = {isa = PBXBuildFile; fileRef = E54651C225AD94D600E1B8E4 /* EnterPinViewController.swift */; settings = {ATTRIBUTES = (Private, ); }; };
 		E50D915525B1C29C0016840E /* ConfirmPinViewController.swift in Headers */ = {isa = PBXBuildFile; fileRef = E54651C625AD94E700E1B8E4 /* ConfirmPinViewController.swift */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -18,6 +17,8 @@
 		E50D915A25B1C29C0016840E /* MovieRequest.swift in Headers */ = {isa = PBXBuildFile; fileRef = E5AEA84725A5CC0900A18FB4 /* MovieRequest.swift */; settings = {ATTRIBUTES = (Private, ); }; };
 		E50D915B25B1C29C0016840E /* MovieResponse.swift in Headers */ = {isa = PBXBuildFile; fileRef = E5AEA84C25A5D28D00A18FB4 /* MovieResponse.swift */; settings = {ATTRIBUTES = (Private, ); }; };
 		E50D915C25B1C29C0016840E /* PhotoResponse.swift in Headers */ = {isa = PBXBuildFile; fileRef = E56BB05825A835B10076DEC3 /* PhotoResponse.swift */; settings = {ATTRIBUTES = (Private, ); }; };
+		E50D916325B1C8420016840E /* Pods_AMFramework1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C22773BAD6231C587B8ACB /* Pods_AMFramework1.framework */; };
+		E50D916425B1C8420016840E /* Pods_AMFramework1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84C22773BAD6231C587B8ACB /* Pods_AMFramework1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E546517525AD931C00E1B8E4 /* AMFramework1Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E546517425AD931C00E1B8E4 /* AMFramework1Storyboard.storyboard */; };
 		E546518225AD93F400E1B8E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E546518125AD93F400E1B8E4 /* Assets.xcassets */; };
 		E54651C325AD94D600E1B8E4 /* EnterPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54651C225AD94D600E1B8E4 /* EnterPinViewController.swift */; };
@@ -44,6 +45,20 @@
 			remoteInfo = AMFramework1;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E50D916525B1C8420016840E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E50D916425B1C8420016840E /* Pods_AMFramework1.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		27D1C19A4C26D4758FEFDA89 /* Pods-AMFramework1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMFramework1.release.xcconfig"; path = "Target Support Files/Pods-AMFramework1/Pods-AMFramework1.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9564652A7A93E66719BA20B0 /* Pods_AMFramework1.framework in Frameworks */,
+				E50D916325B1C8420016840E /* Pods_AMFramework1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +262,7 @@
 				E5A9166825A476C40009D7B3 /* Sources */,
 				E5A9166925A476C40009D7B3 /* Frameworks */,
 				E5A9166A25A476C40009D7B3 /* Resources */,
+				E50D916525B1C8420016840E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
