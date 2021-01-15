@@ -17,14 +17,14 @@ Pod::Spec.new do |spec|
 
   spec.name         = "AMFramework1"
   spec.version      = "0.0.1"
-  spec.summary      = "A pod space to test with client app"
+  spec.summary      = "A pod spce to test with client app"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = 'I am creating this podspace to test workspace with more app including sdk'
+  spec.description  = 'I am creating this podspec to test workspece with more app including sdk'
 
   spec.homepage     = "http://EXAMPLE/AMFramework1"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -62,8 +62,8 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+   spec.platform     = :ios
+   spec.platform     = :ios, "13.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -78,7 +78,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/AMFramework1.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/amrendra-roy/AMFramework1.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
