@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = 'I am creating this podspec to test workspece with more app including sdk'
 
-  spec.homepage     = 'https://www.google.com/'   #{}"http://EXAMPLE/AMFramework1"
+  spec.homepage     = 'https://github.com/amrendra-roy/AMFramework1'
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
