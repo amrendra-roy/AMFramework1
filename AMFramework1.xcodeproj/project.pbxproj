@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DCDEAE43859F25E48FEF35BE /* Pods_AMFramework1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCBE64DF1DD33DD411CA61B6 /* Pods_AMFramework1.framework */; };
+		9564652A7A93E66719BA20B0 /* Pods_AMFramework1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C22773BAD6231C587B8ACB /* Pods_AMFramework1.framework */; };
 		E546517525AD931C00E1B8E4 /* AMFramework1Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E546517425AD931C00E1B8E4 /* AMFramework1Storyboard.storyboard */; };
 		E546518225AD93F400E1B8E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E546518125AD93F400E1B8E4 /* Assets.xcassets */; };
 		E54651C325AD94D600E1B8E4 /* EnterPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54651C225AD94D600E1B8E4 /* EnterPinViewController.swift */; };
@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		27D1C19A4C26D4758FEFDA89 /* Pods-AMFramework1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMFramework1.release.xcconfig"; path = "Target Support Files/Pods-AMFramework1/Pods-AMFramework1.release.xcconfig"; sourceTree = "<group>"; };
 		68E92257712DDAD38A8EC488 /* Pods-AMFramework1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMFramework1.debug.xcconfig"; path = "Target Support Files/Pods-AMFramework1/Pods-AMFramework1.debug.xcconfig"; sourceTree = "<group>"; };
-		DCBE64DF1DD33DD411CA61B6 /* Pods_AMFramework1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMFramework1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C22773BAD6231C587B8ACB /* Pods_AMFramework1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMFramework1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E546517425AD931C00E1B8E4 /* AMFramework1Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AMFramework1Storyboard.storyboard; sourceTree = "<group>"; };
 		E546518125AD93F400E1B8E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E54651C225AD94D600E1B8E4 /* EnterPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterPinViewController.swift; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCDEAE43859F25E48FEF35BE /* Pods_AMFramework1.framework in Frameworks */,
+				9564652A7A93E66719BA20B0 /* Pods_AMFramework1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 		74EC23CD8D4EB1C85060D04D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DCBE64DF1DD33DD411CA61B6 /* Pods_AMFramework1.framework */,
+				84C22773BAD6231C587B8ACB /* Pods_AMFramework1.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
