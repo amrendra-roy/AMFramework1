@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AMFramework1"
-  spec.version      = "0.0.8"
+  spec.version      = "0.0.9"
   spec.summary      = "A pod spce to test with client app"
 
   # This description is used to generate tags and improve search results.
@@ -83,7 +83,7 @@ Pod::Spec.new do |spec|
   
   #spec.source       = { :git => "https://github.com/amrendra-roy/AMFrameworkZipRepo.git", :tag => "#{spec.version}" }
   spec.source = { :http => 'https://wibmo.s3-ap-southeast-1.amazonaws.com/Ios/AmarTestFramework/AMFramework1.zip' }
-  spec.vendored_frameworks = 'AMFramework1.framework'
+  spec.vendored_frameworks = 'AMFramework1/AMFramework1.framework'
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
