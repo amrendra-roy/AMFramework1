@@ -81,7 +81,8 @@ Pod::Spec.new do |spec|
 
   #spec.source       = { :git => "https://github.com/amrendra-roy/AMFramework1.git", :tag => "#{spec.version}" }
   
-  spec.source       = { :git => "https://github.com/amrendra-roy/AMFrameworkZipRepo.git", :tag => "#{spec.version}" }
+  #spec.source       = { :git => "https://github.com/amrendra-roy/AMFrameworkZipRepo.git", :tag => "#{spec.version}" }
+  spec.source = { :http => 'https://wibmo.s3-ap-southeast-1.amazonaws.com/Ios/AmarTestFramework/AMFramework1.zip' }
   spec.vendored_frameworks = 'AMFramework1.framework'
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
