@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "AMFramework1"
-  spec.version      = "0.0.5"
+  spec.version      = "0.0.6"
   spec.summary      = "A pod spce to test with client app"
 
   # This description is used to generate tags and improve search results.
@@ -79,8 +79,10 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/amrendra-roy/AMFramework1.git", :tag => "#{spec.version}" }
-
+  #spec.source       = { :git => "https://github.com/amrendra-roy/AMFramework1.git", :tag => "#{spec.version}" }
+  
+  spec.source       = { :git => "https://github.com/amrendra-roy/AMFrameworkZipRepo.git", :tag => "#{spec.version}" }
+  spec.vendored_frameworks = 'AMFramework1.framework'
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
